@@ -20,16 +20,16 @@
 
 | type | name | comment |
 | :--- | :--- | :--- |
-| int | git\_id |  |
+| int | gitId |  |
 | string | number |  |
-| collection | courses |  |
+| collection | courses | 参加的课程 |
 
 ## teacher extends user
 
 | type | name | comment |
 | :--- | :--- | :--- |
 | boolean | authority | 是否有审批权限 |
-| collection | courses |  |
+| collection | courses | 教的课程 |
 
 ## course
 
@@ -38,10 +38,10 @@
 | int | id |  |
 | string | title |  |
 | string | description |  |
-| collection | teachers |  |
-| collection | students |  |
-| collection | homeworks |  |
-| collection | exams |  |
+| collection | teachers | 参加的老师 |
+| collection | students | 参加的学生 |
+| collection | homeworks | 作业 |
+| collection | exams | 考试 |
 
 ## question
 
