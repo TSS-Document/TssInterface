@@ -13,7 +13,7 @@
 | url | avatar |  |
 | enum\('male','female'\) | gender |  |
 | email | email |  |
-| int | school\_id |  |
+| int | schoolId |  |
 | enum\('admin','student','teacher'\) | type |  |
 
 ## student extends user
@@ -69,7 +69,7 @@
 | enum\('fail','success','notyet'\) | gitInitStatus | git仓库初始化情况.失败,成功,或还未初始化. |
 | Collection | questions |  |
 | Collection | students |  |
-| Collection | initFailStudent |  |
+| Collection | initFailStudent | 仓库初始化失败的学生 |
 
 
 
