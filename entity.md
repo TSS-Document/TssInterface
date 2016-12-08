@@ -11,18 +11,23 @@
 | int | id |  |
 | string | username |  |
 | url | avatar |  |
-| enum\('男','女'\) | gender |  |
+| enum\('男','女'\) | gender | 待商榷 |
 | email | email |  |
 | int | school\_id |  |
 | enum\('admin','student','teacher'\) | type |  |
 
-## student  extends  user
+## student extends user
 
 | type | name | comment |
 | :--- | :--- | :--- |
-| int | id |  |
-| string | username |  |
-|  |  |  |
+| int | git\_id |  |
+| int | number | 学号,待商榷 |
+
+## teacher extends user
+
+| type | name | comment |
+| :--- | :--- | :--- |
+| boolean | authority | 是否有审批权限 |
 
 
 
