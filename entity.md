@@ -11,7 +11,7 @@
 | int | id |  |
 | string | username |  |
 | url | avatar |  |
-| enum\('男','女'\) | gender | 待商榷 |
+| enum\('male','female'\) | gender |  |
 | email | email |  |
 | int | school\_id |  |
 | enum\('admin','student','teacher'\) | type |  |
@@ -21,7 +21,7 @@
 | type | name | comment |
 | :--- | :--- | :--- |
 | int | git\_id |  |
-| int | number | 学号,待商榷 |
+| string | number |  |
 | collection | courses |  |
 
 ## teacher extends user
@@ -41,8 +41,6 @@
 | collection | students |  |
 | collection | homeworks |  |
 | collection | exams |  |
-
-
 
 
 
