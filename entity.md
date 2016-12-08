@@ -29,6 +29,7 @@
 | type | name | comment |
 | :--- | :--- | :--- |
 | boolean | authority | 是否有审批权限 |
+| collection | courses |  |
 
 ## course
 
@@ -41,6 +42,17 @@
 | collection | students |  |
 | collection | homeworks |  |
 | collection | exams |  |
+
+## question
+
+| type | name | comment |
+| :--- | :--- | :--- |
+| int | id |  |
+| string | description |  |
+| url | git\_url |  |
+| url | file\_url | 压缩包的地址 |
+| User | creator |  |
+| User | verifier | 审批者,null时表示未审批 |
 
 
 
