@@ -57,3 +57,13 @@
 
 ## assignment
 
+| type | name | comment |
+| :--- | :--- | :--- |
+| int | id |  |
+| string | description |  |
+| url | git\_url |  |
+| url | file\_url | 压缩包的地址 |
+| User | creator |  |
+| User | verifier | 审批者,null时表示未审批 |
+| string | type | 题目类型 |
+
