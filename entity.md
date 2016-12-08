@@ -22,12 +22,25 @@
 | :--- | :--- | :--- |
 | int | git\_id |  |
 | int | number | 学号,待商榷 |
+| collection | courses |  |
 
 ## teacher extends user
 
 | type | name | comment |
 | :--- | :--- | :--- |
 | boolean | authority | 是否有审批权限 |
+
+## course
+
+| type | name | comment |
+| :--- | :--- | :--- |
+| int | id |  |
+| string | title |  |
+| string | description |  |
+| collection | teachers |  |
+| collection | students |  |
+| collection | homeworks |  |
+| collection | exams |  |
 
 
 
