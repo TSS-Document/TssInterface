@@ -75,9 +75,11 @@
 
 | type | name | comment |
 | :--- | :--- | :--- |
-| boolean | authority | 是否有审批权限 |
-| collection | courses | 教的课程 |
-
+| Student | student |  |
+| Assignment | assigment |  |
+| Question | question |  |
+| int | score | 成绩 |
+| url | url | 对应的详细分析的url |
 
 
 
