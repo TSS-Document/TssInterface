@@ -21,7 +21,7 @@
 | type | name | comment |
 | :--- | :--- | :--- |
 | int | gitId |  |
-| string | number |  |
+| string | number | 学号 |
 | collection | courses | 参加的课程 |
 
 ## teacher extends user
