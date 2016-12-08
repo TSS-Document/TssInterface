@@ -60,10 +60,13 @@
 | type | name | comment |
 | :--- | :--- | :--- |
 | int | id |  |
+| string | title |  |
 | string | description |  |
-| url | git\_url |  |
-| url | file\_url | 压缩包的地址 |
-| User | creator |  |
-| User | verifier | 审批者,null时表示未审批 |
-| string | type | 题目类型 |
+| Datetime | startAt |  |
+| Datetime | endAt |  |
+| User | author | 创建者 |
+| Course | course | 课程 |
+| enum\('fail','success','notyet'\) | gitInitStatus | git仓库初始化情况.失败,成功,或还未初始化. |
+
+
 
