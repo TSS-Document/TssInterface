@@ -71,5 +71,13 @@
 | Collection | students |  |
 | Collection | initFailStudent | 仓库初始化失败的学生 |
 
+## score
+
+| type | name | comment |
+| :--- | :--- | :--- |
+| boolean | authority | 是否有审批权限 |
+| collection | courses | 教的课程 |
+
+
 
 
