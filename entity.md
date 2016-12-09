@@ -36,7 +36,7 @@
 | type | name | comment |
 | :--- | :--- | :--- |
 | int | id |  |
-| string | title |  |
+| string | name | 如"14软件工程II二班" |
 | string | description |  |
 | collection | teachers | 参加的老师 |
 | collection | students | 参加的学生 |
