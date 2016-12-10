@@ -48,6 +48,7 @@
 | type | name | comment |
 | :--- | :--- | :--- |
 | int | id |  |
+| string | title |  |
 | string | description |  |
 | url | gitUrl | 对应git地址 |
 | url | fileUrl | 压缩包的地址 |
