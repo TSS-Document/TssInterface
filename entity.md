@@ -67,7 +67,7 @@
 | Datetime | endAt | 结束时间 |
 | User | author | 创建者 |
 | Course | course | 课程 |
-| enum\('fail','success','notyet'\) | gitInitStatus | git仓库初始化情况.失败,成功,或还未初始化. |
+| enum\('fail','success','notBegun',''undergoing'\) | gitInitStatus | git仓库初始化情况.失败,成功,还未初始化,正在初始化 |
 | Collection | questions |  |
 | Collection | students |  |
 | Collection | initFailStudent | 仓库初始化失败的学生 |
