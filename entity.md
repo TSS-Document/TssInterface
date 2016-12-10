@@ -80,7 +80,8 @@
 | Assignment | assigment |  |
 | Question | question |  |
 | int | score | 成绩,null表示成绩未出 |
-| url | analysisReportUrl | 对应的详细分析的url |
+| url | analysisReportUrl | 详细分析的url |
+| url | scoreReportUrl | 成绩分析url |
 
 
 
