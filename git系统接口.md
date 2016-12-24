@@ -17,7 +17,7 @@ Param
 Response
 ```js
 {
-    gitUrl:"url" //原来为gitlabUrl
+    gitUrl:"xxxxx.git" //原来为gitlabUrl
 }
 ```
 
