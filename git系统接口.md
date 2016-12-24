@@ -46,3 +46,9 @@ Response
 ```js
 POST /exams/createRepos
 ```
+Param
+```js
+{
+
+}
+```
