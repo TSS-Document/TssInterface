@@ -64,7 +64,8 @@ Response
 ```js
 {
     failedRepo:{
-        1 : ["exam1_project1","exam1_project2"]
+        1 : ["exam1_project1","exam1_project2"],
+        2 : ["exam1_project1"]
     }
 }
 ```
