@@ -64,7 +64,7 @@ Response
 ```js
 {
     failedRepo:{
-        "exam1_project1":1 //projectName:gitId
+        "exam1_project1":1 //传过去的项目名:创建失败者的gitId
         "exam1_project2":2
         ...
     }
