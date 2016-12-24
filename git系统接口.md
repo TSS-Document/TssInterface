@@ -17,7 +17,7 @@ Param
 Response
 ```js
 {
-    gitUrl:"url"
+    gitUrl:"url" //原来为gitlabUrl
 }
 ```
 
@@ -25,6 +25,7 @@ Response
 
 ```
 POST /users/createUser
+// 原来为/user,现在加了个s
 ```
 Param
 ```js
