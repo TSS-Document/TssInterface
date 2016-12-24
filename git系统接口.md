@@ -53,7 +53,8 @@ Param
     //这个接口变得比较多
     gitIds:[1,2,3],
     projects:{
-        "exam1_project1":"xxxxx.git"
+        "exam1_project1":"xxxxx.git",
+        "exam2_project2":"xxxxx.git"
     }
 }
 ```
