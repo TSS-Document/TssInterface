@@ -42,8 +42,9 @@ Response
     //现在是gitId,返回值是int
 }
 ```
-创建考试所需仓库
-```js
+
+##创建考试所需仓库
+```
 POST /exams/createRepos
 ```
 Param
