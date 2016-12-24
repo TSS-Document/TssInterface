@@ -21,3 +21,21 @@ Response
 }
 ```
 
+##创建用户
+
+```
+POST /users/createUser
+```
+Param
+```js
+{
+    username:"string",
+    password:"string"
+}
+```
+Response
+```js
+{
+    gitId
+}
+```
