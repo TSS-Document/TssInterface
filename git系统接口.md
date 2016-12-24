@@ -55,6 +55,7 @@ Param
     projects:{
         "exam1_project1":"xxxxx.git",
         "exam2_project2":"xxxxx.git"
+        //key是tss系统按 考试+项目名 生成的,value是创建仓库时返回的git地址
     }
 }
 ```
