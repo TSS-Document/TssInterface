@@ -54,7 +54,7 @@ Param
     gitIds:[1,2,3],
     projects:{
         "exam1_project1":"xxxxx.git",
-        "exam2_project2":"xxxxx.git"
+        "exam1_project2":"xxxxx.git"
         //key是tss系统按某些规则,比如 考试+项目名 生成的,value是创建仓库时返回的git地址
     }
 }
@@ -63,5 +63,6 @@ Response
 ```js
 {
     "exam1_project1":1 //projectName:gitId
+    "exam1_project2":2
 }
 ```
