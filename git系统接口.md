@@ -43,3 +43,6 @@ Response
 }
 ```
 创建考试所需仓库
+```js
+POST /exams/createRepos
+```
