@@ -51,6 +51,9 @@ Param
 ```js
 {
     //这个接口变得比较多
-    gitIds:[1,2,3]
+    gitIds:[1,2,3],
+    projects:{
+        "exam1_project1":""
+    }
 }
 ```
