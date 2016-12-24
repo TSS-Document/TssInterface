@@ -59,3 +59,8 @@ Param
     }
 }
 ```
+Response
+```js
+{
+}
+```
