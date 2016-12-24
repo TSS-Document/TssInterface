@@ -63,8 +63,10 @@ Param
 Response
 ```js
 {
-    "exam1_project1":1 //projectName:gitId
-    "exam1_project2":2
-    ...
+    failedRepo:{
+        "exam1_project1":1 //projectName:gitId
+        "exam1_project2":2
+        ...
+    }
 }
 ```
