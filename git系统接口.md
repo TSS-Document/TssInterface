@@ -37,6 +37,6 @@ Param
 Response
 ```js
 {
-    gitId:
+    gitId: 1
 }
 ```
