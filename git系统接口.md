@@ -10,6 +10,14 @@ POST /exams/uploadProject
 Param
 ```js
 {
-    
+    projectName:"string",
+    fileUrl:"url"
 }
 ```
+Response
+```js
+{
+    gitUrl:"url"
+}
+```
+
