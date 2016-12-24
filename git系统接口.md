@@ -62,5 +62,10 @@ Param
 Response
 ```js
 {
+    failedRepo:[
+        {
+            
+        },
+    ]
 }
 ```
