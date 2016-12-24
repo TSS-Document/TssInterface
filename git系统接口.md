@@ -53,19 +53,15 @@ Param
     //这个接口变得比较多
     gitIds:[1,2,3],
     projects:{
-        "exam1__project1":"xxxxx.git",
+        "exam1_project1":"xxxxx.git",
         "exam2_project2":"xxxxx.git"
-        //key是tss系统按 考试+项目名 生成的,value是创建仓库时返回的git地址
+        //key是tss系统按某些规则,比如 考试+项目名 生成的,value是创建仓库时返回的git地址
     }
 }
 ```
 Response
 ```js
 {
-    failedRepo:[
-        {
-            
-        },
-    ]
+    "exam1_project1":1 //projectName:gitId
 }
 ```
