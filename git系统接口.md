@@ -53,7 +53,7 @@ Param
     //这个接口变得比较多
     gitIds:[1,2,3],
     projects:{
-        "exam1_project1":"xxxxx.git",
+        "exam1__project1":"xxxxx.git",
         "exam2_project2":"xxxxx.git"
         //key是tss系统按 考试+项目名 生成的,value是创建仓库时返回的git地址
     }
