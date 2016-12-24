@@ -66,6 +66,7 @@ Response
     failedRepo:{
         1 : ["exam1_project1","exam1_project2"],
         2 : ["exam1_project1"]
+        // gitId : projectNames
     }
 }
 ```
