@@ -37,6 +37,8 @@ Param
 Response
 ```js
 {
-    gitId: 1
+    gitId: 1 
+    //原来为gitlabId,返回值为string
+    //现在是gitId,返回值是int
 }
 ```
