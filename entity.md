@@ -68,9 +68,7 @@
 | Datetime | endAt | 结束时间 |
 | User | author | 创建者 |
 | Course | course | 课程 |
-| enum\('newly','notInit','initing'
-,initFail','initSuccess','ongoing',
-'timeUp','analyzing','analyzingFinish'\) | gitInitStatus | git仓库初始化情况.新建,还未初始化,正在初始化,失败,成功,考试或作业进行中,时间到,分析中,分析结束 |
+| enum\('newly','notInit','initing',<br>initFail','initSuccess','ongoing',<br>'timeUp','analyzing','analyzingFinish'\) | gitInitStatus | git仓库初始化情况.新建,还未初始化,正在初始化,失败,成功,考试或作业进行中,时间到,分析中,分析结束 |
 | Collection | students |  |
 
 ## onlineProgramAssignment
