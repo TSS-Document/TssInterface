@@ -9,12 +9,13 @@
 | type | name | comment |
 | :--- | :--- | :--- |
 | int | id |  |
-| string | username |  |
+| string | username | unique |
+| string | name |  |
 | url | avatar |  |
 | enum\('male','female'\) | gender |  |
 | email | email |  |
 | int | schoolId |  |
-| enum\('admin','student','teacher'\) | type |  |
+| enum\('admin','student','teacher'\) | type |   |
 
 ## student extends user
 
@@ -36,7 +37,7 @@
 | type | name | comment |
 | :--- | :--- | :--- |
 | int | id |  |
-| string | name | 如"14软件工程II二班" |
+| string | name | unique 如"14软件工程II二班" |
 | string | description |  |
 | collection | teachers | 参加的老师 |
 | collection | students | 参加的学生 |
@@ -48,7 +49,7 @@
 | type | name | comment |
 | :--- | :--- | :--- |
 | int | id |  |
-| string | title |  |
+| string | title | unique |
 | string | description |  |
 | url | gitUrl | 对应git地址 |
 | url | fileUrl | 压缩包的地址 |
@@ -67,9 +68,13 @@
 | Datetime | endAt | 结束时间 |
 | User | author | 创建者 |
 | Course | course | 课程 |
-| enum\('fail','success','notBegun',''undergoing'\) | gitInitStatus | git仓库初始化情况.失败,成功,还未初始化,正在初始化 |
+| enum\('newly','notInit','initing',<br>initFail','initSuccess','ongoing',<br>'timeUp','analyzing','analyzingFinish'\) | gitInitStatus | git仓库初始化情况.新建,还未初始化,正在初始化,失败,成功,考试或作业进行中,时间到,分析中,分析结束 |
+| Collection | students |   |
+
+## onlineProgramAssignment
+| type | name | comment |
+| :--- | :--- | :--- |
 | Collection | questions |  |
-| Collection | students |  |
 | Collection | initFailStudent | 仓库初始化失败的学生 |
 
 ## score
