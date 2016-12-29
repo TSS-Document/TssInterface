@@ -2,39 +2,51 @@
 
 ---
 
-##上传项目
+## 修改记录
+
+* **2016.12.28**  [\#创建考试所需仓库](#创建考试所需仓库) projects参数改为 string的list
+
+## 上传项目
 
 ```
 POST /exams/uploadProject
 ```
+
 Param
+
 ```js
 {
     projectName:"string",
     fileUrl:"url"
 }
 ```
+
 Response
+
 ```js
 {
     gitUrl:"xxxxx.git" //原来为gitlabUrl
 }
 ```
 
-##创建用户
+## 创建用户
 
 ```
 POST /users/createUser
 // 原来为/user,现在加了个s
 ```
+
 Param
+
 ```js
 {
     username:"string",
     password:"string"
 }
 ```
+
 Response
+
 ```js
 {
     gitId: 1 
@@ -43,24 +55,29 @@ Response
 }
 ```
 
-##创建考试所需仓库
+## 创建考试所需仓库
+
 ```
 POST /exams/createRepos
 ```
+
 Param
+
 ```js
 {
     //这个接口变得比较多
     gitIds:[1,2,3],
-    projects:{
-        "exam1_project1":"xxxxx.git",
-        "exam1_project2":"xxxxx.git"
-        //key是tss系统按某些规则,比如 考试+项目名 生成的,value是创建仓库时返回的git地址
+    projects:[
+        "exam1_project1"
+        "exam1_project2"
+        //tss系统按某些规则,比如 考试+项目名 生成的
         ...
-    }
+    ]
 }
 ```
+
 Response
+
 ```js
 {
     failedRepo:{
@@ -70,3 +87,6 @@ Response
     }
 }
 ```
+
+
+
