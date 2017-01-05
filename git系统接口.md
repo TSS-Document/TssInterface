@@ -5,11 +5,12 @@
 ## 修改记录
 
 * **2016.12.28**  [\#创建考试所需仓库](#创建考试所需仓库) projects参数改为 string的list
+* **2017.01.05**  [\#上传项目]url改成exam/uploadProject，原本是exams/uploadProject
 
 ## 上传项目
 
 ```
-POST /exams/uploadProject
+POST /exam/uploadProject
 ```
 
 Param
